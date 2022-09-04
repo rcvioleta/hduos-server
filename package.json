@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "next start -p $PORT",
+    "start": "node dist/server.js -p $PORT",
     "build": "npx tsc",
     "watch": "concurrently \"tsc --watch --project tsconfig.json\" \"nodemon dist/server.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
